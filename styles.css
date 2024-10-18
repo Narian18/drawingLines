@@ -1,0 +1,33 @@
+#flowchart-container {
+  position: relative;
+}
+
+#connection-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none; 
+}
+
+.blocks-container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.column-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem 4rem;
+}
+
